@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    color: #EEEEEE;
+}
+
+header {
+    width: 95%;
+    background-color: #201E43;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 2%;
+    font-size: 28px;
+    text-align: center;
+}
+
+nav {
+    width: 95%;
+    background-color: #134B70;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main {
+    width: 95%;
+    background-color: #201E43;
+    color: #EEEEEE;
+    padding: 10px;
+    height: 500px;
+}
+
+iframe {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    color: #EEEEEE;
+    justify-content: center;
+}
+
+/* Estilo para o formulário */
+form {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte se necessário */
+    gap: 15px; /* Espaçamento entre as linhas e colunas dos campos */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    padding: 20px;
+    background-color: #2E5A7A; /* Cor de fundo do formulário */
+    border-radius: 10px; /* Cantos arredondados do formulário */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao formulário para destaque */
+}
+
+/* Estilo para os parágrafos dentro do formulário */
+form p {
+    display: flex;
+    flex-direction: column; /* Faz com que o rótulo e o campo fiquem na coluna */
+    width: calc(40% - 15px); /* Ajusta a largura dos campos para que caibam duas colunas com espaçamento */
+}
+
+/* Adiciona espaçamento lateral entre os campos */
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1A3D5C; /* Cor da borda */
+    border-radius: 5px; /* Cantos arredondados dos campos */
+    background-color: #508C9B; /* Cor de fundo dos campos */
+    color: #EEEEEE; /* Cor do texto dentro dos campos */
+}
+
+/* Estilo para o botão de envio */
+form input[type="submit"].botao {
+    background-color: #EEEEEE; /* Cor de fundo do botão */
+    color: #201E43; /* Cor do texto do botão */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    width: 100%; /* Faz com que o botão ocupe a largura total disponível */
+    margin-top: 15px; /* Espaçamento superior para separar o botão dos campos */
+}
+
+/* Estilo para o botão quando o mouse passa sobre ele */
+form input[type="submit"].botao:hover {
+    background-color: #cccccc; /* Cor de fundo quando o botão é hover */
+}
+
+
+
+footer {
+    width: 95%;
+    background-color: #134B70;
+    color: #EEEEEE;
+    padding: 10px;
+    margin-bottom: 2%;
+    border-radius: 0 0 10px 10px;
+}
+
+/*.botao {
+    background-color: #EEEEEE;
+    color: #201E43;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.botao:hover {
+    background-color: #cccccc;
+}*/
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #134B70;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    color: #EEEEEE;
+}
+
+th {
+    background-color: #1A3D5C;
+}
+
+tr:nth-child(even) {
+    background-color: #2E5A7A;
+}
+
+tr:hover {
+    background-color: #3A6C92;
+    cursor: pointer;
+}
+
+table, th, td {
+    border: 1px solid #1A3D5C;
+}
